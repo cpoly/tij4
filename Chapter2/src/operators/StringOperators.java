@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package operators;
+
+/**
+ *
+ * @author cpolychronopoulos
+ */
+//: operators/StringOperators.java
+public class StringOperators {
+
+    public static void main(String[] args) {
+        int x = 0, y = 1, z = 2;
+        String s = "x, y, z ";
+        System.out.println(s + x + y + z);
+        System.out.println(x + " " + s); // Converts x to a String
+        s += "(summed) = "; // Concatenation operator
+        System.out.println(s + (x + y + z));
+        System.out.println("" + x); // Shorthand for Integer.toString()
+    }
+} /* Output:
+ x, y, z 012
+ 0 x, y, z
+ x, y, z (summed) = 3
+ 0
+ *///:~
