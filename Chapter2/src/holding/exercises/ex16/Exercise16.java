@@ -13,16 +13,16 @@ import java.util.*;
  */
 public class Exercise16 {
 
-    Set<String> words = new TreeSet(String.CASE_INSENSITIVE_ORDER) ;
-    words.addAll(Arrays.asList("A", "B", "C", "Collections", "D", 
-                            "E", "F", "G", "H", "HashSet", "I", "J", "K",
-                            "L", "M", "N", "Output", "Print", "Set", "SetOperations",
-                            "String", "X", "Y", "Z", "add", "addAll", "added"));
-    Set<Character> vowels = new HashSet(Arrays.asList('a', 'e', 'i', 'o', 'u');
-    public static void main(String[] args) {
-        Set<Character> vowelsInWords = new HashSet();
-        vowelsInWords = words.retainAll(vowels);
-    }
+    //Set<String> words = new TreeSet(String.CASE_INSENSITIVE_ORDER) ;
+    //words.addAll(Arrays.asList("A", "B", "C", "Collections", "D", 
+    //                        "E", "F", "G", "H", "HashSet", "I", "J", "K",
+    //                        "L", "M", "N", "Output", "Print", "Set", "SetOperations",
+    //                        "String", "X", "Y", "Z", "add", "addAll", "added"));
+    //Set<Character> vowels = new HashSet(Arrays.asList('a', 'e', 'i', 'o', 'u');
+    //public static void main(String[] args) {
+    //    Set<Character> vowelsInWords = new HashSet();
+    //    vowelsInWords = words.retainAll(vowels);
+   // }
 }
 
 //: holding/UniqueWords.java
